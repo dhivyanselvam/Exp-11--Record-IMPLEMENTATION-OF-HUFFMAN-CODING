@@ -31,7 +31,7 @@ print the characters and its huffmancode.
 
 ``` Python
 
-input_string = "Jones syndicate"  # Example input string
+input_string = "Dhivyan"  # Example input string
 
 frequency = {}
 for char in input_string:
@@ -67,7 +67,7 @@ def generate_codes(tree, code=""):
 
 generate_codes(huffman_tree)
 
-print("Character | Jones syndicate")
+print("Character | Dhivyan")
 print("-------------------------")
 for char, code in huffman_codes.items():
     print(f"    {char}    |    {code}")
